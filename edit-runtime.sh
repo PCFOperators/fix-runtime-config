@@ -1,4 +1,7 @@
-cat <<EOT >> ../pcf-prometheus-pipeline/runtime.yml
+#!/bin/bash
+set -e
+
+cat <<EOT > ../pcf-prometheus-pipeline/runtime.yml
 releases:
 - name: node-exporter
   version: ((node_exporter_version))
