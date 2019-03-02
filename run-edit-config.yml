@@ -10,5 +10,8 @@ inputs:
 - name: pcf-prometheus-pipeline
 - name: fix-runtime-config
 
+outputs:
+- name: fixed-runtime
+
 run:
   path: fix-runtime-config/edit-runtime.sh

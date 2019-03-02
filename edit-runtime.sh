@@ -15,4 +15,6 @@ addons:
   jobs:
   - name: node_exporter
 release: node-exporter
-EOT
+EOT 
+
+mv pcf-prometheus-pipeline fixed-runtime
