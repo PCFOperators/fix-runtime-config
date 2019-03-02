@@ -9,9 +9,8 @@ image_resource:
 inputs:
 - name: pcf-prometheus-pipeline
 - name: fix-runtime-config
-
-outputs:
-- name: fixed-runtime
+- name: node-exporter-release
+- name: pcf-bosh-creds
 
 run:
   path: fix-runtime-config/edit-runtime.sh
