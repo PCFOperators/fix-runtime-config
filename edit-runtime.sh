@@ -17,4 +17,4 @@ addons:
 release: node-exporter
 EOT
 
-mv pcf-prometheus-pipeline fixed-runtime
+cp -R pcf-prometheus-pipeline fixed-runtime
